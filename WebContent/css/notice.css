@@ -1,0 +1,51 @@
+.main{
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+width: 100%;
+height: auto;
+padding: 20px 0px;
+
+}
+textarea{
+  border: 0;
+  margin-top: 1%;
+  width: 50%;
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 16px;
+  -webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+textarea:focus{
+  outline: none;
+}
+
+.main button{
+  margin-top: 20px;
+  margin-left: 40%;
+  border: 0;
+  border-radius: 6px;
+  background-color: orange;
+  width:150px;
+  padding: 10px;
+}
+
+.main button:hover{
+  color: white;
+  transform: scale(1.2,1.2 );
+}
+
+.myfield form button{
+  width: auto;
+font-size: 20px;
+  margin-left:2px;
+background-color: white;
+}
+.myfield form button:hover{
+  color:black;
+}
+
+
+.myfield form{
+  margin-left: -20%;
+}

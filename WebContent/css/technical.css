@@ -1,0 +1,77 @@
+
+body{
+        background-image: url("images/img3.jpg");
+        opacity: 0.82;
+        z-index: -1;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+.myinfo{
+  float: left;
+  -webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+width: 300px;
+height: 630px;
+text-align: center;
+
+}
+.select{
+  border-radius: 36px;;
+  background-color: white;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: border 1s;
+}
+.select h3{
+  text-align: center;
+color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+label img{
+  margin: 20px;
+  margin-left: 23px;
+  margin-top: 22px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: transform 1s;
+cursor: pointer;
+}
+
+input{
+  display: none;
+}
+
+label img:hover{
+    opacity: 0.5;
+    transform:scale(1.2,1.2);
+}
+
+form button{
+  text-align: center;
+background-color: orange;
+color: black;
+border: 0;
+font-size: 16px;
+border-radius: 8px;
+padding: 10PX;
+margin-left: 39.5%;
+}
+form button:hover{
+  color: white;
+  background-color: orange;
+}

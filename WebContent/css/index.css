@@ -1,0 +1,151 @@
+body{
+  font-size: 20px;
+letter-spacing: 2px;
+color: white;
+}
+
+
+.nav {
+  margin-left: 12px;
+  z-index: 1;
+  margin-top: 0px;
+padding: 20px;
+position: fixed;
+float: right;
+width: 94%;
+/* opacity: 0.82; */
+/* background-color: white; */
+border-radius: 6px;
+background-color: white;
+
+
+}
+
+
+.nav a{
+  float: right;
+  text-decoration: none;
+  color: #3fe0d0;
+  margin: 0 15px;
+  font-size: 20px;
+  border: 0px;
+
+transition: border;
+}
+.nav a:hover{
+  color:#fd6a02;
+}
+
+.main1{
+  margin: 10px 0px;
+  margin-top: 0px;
+  border-radius: 12px;
+  background-color:#fd6a02;
+  background-image: url("images/img2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 29%;
+  opacity: 0.82;
+}
+
+
+.n1 {
+  padding-top: 11%;
+  margin-left: 8%;
+}
+
+.n1 h1{
+  font-size: 90px;
+  letter-spacing: 10px;
+}
+.main2{
+  margin: 10px 0px;
+border-radius: 12px;
+  background-color:#fd6a02;
+  background-image: url("images/img2.jpg");
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 9%;
+  opacity: 0.82;
+}
+.card{
+text-align: center;
+border-radius: 12px;
+  /* padding-top: 60px; */
+  width: 450px;
+  height: 400px;
+  margin: 0 50px;
+  background-color: black;
+  opacity: 0.82;
+  -webkit-box-shadow: 0 0 10px #fff;
+box-shadow: 0 0 10px #fff;
+}
+.card img{
+  margin-top: 40px;
+}
+
+.explore{
+  margin: 10px 0px;
+  border-radius: 12px;
+  background-color:rgba(0,0,0,0.62);
+  width: auto;
+  padding: 50px;
+}
+.map{
+    background-color:rgba(0,0,0,0.62);
+border: 3px solid black;
+border-radius: 12px;
+}
+.main3{
+  border-radius: 12px;
+height:auto;
+padding-bottom: 0px;
+width: 100%;
+}
+.fa {
+
+  border-radius: 50%;
+  padding:8PX 3px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 6px;
+  margin-top: -20px;
+    /* margin-left: -20px; */
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+.con{
+  margin: 10px 0px;
+border-radius: 12px;
+  background-color:rgba(0,0,0,0.62);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("images/img2.jpg");
+
+  bottom: 0;
+  height: 100px;
+  width:100%;
+}
+.con a{
+  float: right;
+}

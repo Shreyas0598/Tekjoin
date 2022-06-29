@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div class="nav">
+  <a href="signup.jsp">Sign Up  </a>
+      <a href="log.jsp"> Login </a>
+    <a href="#contactus">Contact Us</a>
+    <a href="#aboutus">About Us</a>
+<a href="#explore">Explore</a>
+    <a href="index.html">Home</a>
+  </div>
+    <div class="main1">
+    <div class="n1">
+    <h1 >TEKJOIN</h1>
+    <span  style="font-size:40px"> <i class="fa fa-quote-left"></i></span><span style="font-size:30px;">Your Only Competition Is With You</span> <i class="fa fa-quote-right"></i>
+      </div>
+</div>
+
+
+<div class="explore" id="explore">
+  <h1>
+About Us
+  </h1>
+There is an acute gap of communication amongst students and professionals belonging to the same organisation or institution. Formally, to identify and communicate with an acquaintance sharing similar views, having the same skills and interests is a challenging task. To reduce this widening gap, the idea of Tekjoin was conceived. Tekjoin is a platform which connects employee to employee, unlike many other applications who promulgate employer to employee connection. This is what makes Tekjoin different from its peers functioning in the same domain. 
+</div>
+
+
+
+<div class="main2" id="aboutus">
+<div class="card" >
+<img src="css/images/user.png" alt="" width="100px" height="100px"><br>
+Shreyas Garsund <br><br>
+Pune Instiute of Computer Technology ,Pune
+
+</div>
+<div class="card" >
+<img src="css/images/user.png" alt="" width="100px" height="100px"><br>
+Sharvil Ghate <br><br>
+Pune Instiute of Computer Technology ,Pune
+
+
+</div>
+<div class="card" >
+<img src="css/images/user.png" alt="" width="100px" height="100px"><br>
+Girish Haral <br><br>
+Pune Instiute of Computer Technology ,Pune
+</div>
+<div class="card" >
+<img src="css/images/user.png" alt="" width="100px" height="100px"><br>
+Priyanka Gandhi <br><br>
+Pune Instiute of Computer Technology ,Pune
+</div>
+
+</div>
+<div class="main3" id="contactus">
+  <div   id="map" style="width:100%;height:400px;background-color:black;border-radius:12px;"></div>
+<div class="con" ><br>
+  E-mail : priyankagandhi996@gmail.com <br>
+  Phone Number : 9404606591 <br>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-google-plus"></a>
+  <a href="#" class="fa fa-twitter"></a>
+</div>
+</div>
+<script>
+// Initialize and add the map
+function initMap() {
+ // The location of Uluru
+ var uluru = {lat: 18.4575, lng: 73.8508};
+ // The map, centered at Uluru
+ var map = new google.maps.Map(
+     document.getElementById('map'), {zoom: 15, center: uluru});
+ // The marker, positioned at Uluru
+ var marker = new google.maps.Marker({position: uluru, map: map});
+}
+   </script>
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ3hx8g8lxH8X5TIMU8J2c4bW3PQNgUIM&callback=initMap">
+    </script>
+
+  </body>
+</html>
